@@ -1,0 +1,83 @@
+@import "reset";
+
+body {
+    line-height: 1.5;
+    font-size: 2rem;
+    box-sizing: border-box;
+    background-color: rgb(214, 210, 210);
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+button {
+    border: none;
+    padding: 1rem 2.5rem;
+    border-radius: 0.5rem;
+}
+
+form {
+    padding: 2rem;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+
+    h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    input {
+        width: 100%;
+        padding: 0.5rem;
+        outline: none;
+        border-radius: 0.2rem;
+        border: none;
+
+        &:active {
+            outline: 1px solid black;
+        }
+    }
+
+    #button {
+        background-color: steelblue;
+        border: none;
+        color: white;
+        margin: 0.8rem auto;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(99, 110, 81);
+            color: black;
+        }
+    }
+}
+
+
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+
+    li {
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .read_btn {
+        padding: 1rem 1.5rem;
+        ;
+        background-color: rgb(75, 35, 75);
+        color: rgb(198, 197, 204);
+        text-transform: capitalize;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+}

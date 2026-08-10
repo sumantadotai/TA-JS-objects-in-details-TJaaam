@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz App</title>
+        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+    </head>
+
+    <body class="bg-gradient-to-r from-blue-300 to-blue-400 flex flex-col items-center justify-center">
+        <header class="flex justify-between p-5 text-3xl bg-teal-700 w-11/12 mt-20">
+            <h1 class="text-white font-bold">General Knowledge Quiz </h1>
+            <p class="total text-white"></p>
+        </header>
+
+        <section class="flex justify-center w-full">
+            <div class="quiz flex justify-center bg-teal-200 p-10 text-2xl w-11/12">
+
+            </div>
+        </section>
+
+
+        <footer class="w-full flex justify-center">
+            <div class="btn-container flex justify-between p-10 w-11/12">
+                <button class="prev">Previous</button>
+                <button class="next">Next</button>
+                <button class="show-result">Show Result</button>
+            </div>
+        </footer>
+        <script src="./assets/js/data.js"></script>
+        <script src="./assets/js/index.js"></script>
+    </body>
+
+</html>
